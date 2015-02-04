@@ -10,3 +10,8 @@ validation_key           "#{current_dir}/nharveycul215-validator.pem"
 chef_server_url          "https://api.opscode.com/organizations/nharveycul215"
 syntax_check_cache_path  "#{ENV['HOME']}/.chef/syntaxcache"
 cookbook_path            ["#{current_dir}/../cookbooks"]
+
+knife[:aws_ssh_key_id]  = ENV['AWS_KEYPAIR_NAME_EU']
+knife[:aws_access_key_id]  = ENV['AWS_ACCESS_KEY_ID']
+knife[:aws_secret_access_key] = ENV['AWS_SECRET_ACCESS_KEY']
+knife[:region] = "eu-west-1"
