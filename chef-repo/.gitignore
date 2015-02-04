@@ -5,3 +5,8 @@
 ###
 .chef/*.pem
 .chef/encrypted_data_bag_secret
+.chef/keys
+.chef/local-mode-cache
+nodes
+clients
+data_bags
