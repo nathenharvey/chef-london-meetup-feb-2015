@@ -6,3 +6,4 @@ description      'Installs/Configures hello_world'
 long_description 'Installs/Configures hello_world'
 version          '0.1.0'
 
+depends          'httpd'
