@@ -4,6 +4,8 @@ This is the code and presentation given at the [Chef Users London Meetup](http:/
 
 An introduction to Chef Provisioning.
 
+Slides can be found here and are also [available on Speaker Deck](https://speakerdeck.com/nathenharvey/chef-provisioning).
+
 ## Setup
 
 1. Install ChefDK (v. 0.4.0 or higher)
